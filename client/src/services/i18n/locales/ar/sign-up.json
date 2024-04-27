@@ -1,0 +1,42 @@
+{
+  "title": "انشاء حساب",
+  "actions": {
+    "submit": "انشاء حساب",
+    "accountAlreadyExists": "يوجد سحاب بالفعل؟"
+  },
+  "inputs": {
+    "firstName": {
+      "label": "الاسم الاول",
+      "validation": {
+        "required": "الاسم الاول مطلوب"
+      }
+    },
+    "lastName": {
+      "label": "الاسم الاخير",
+      "validation": {
+        "required": "الاسم الاخير مطلوب"
+      }
+    },
+    "email": {
+      "label": "البريد الالكتروني",
+      "validation": {
+        "required": "البريد الالكتروني مطلوب",
+        "invalid": "البريد الالكتروني غير صالح",
+        "server": {
+          "emailAlreadyExists": "البريد الالكتروني موجدو مسبقا"
+        }
+      }
+    },
+    "password": {
+      "label": "كلمة المرور",
+      "validation": {
+        "required": "كلمة المرور مطلوبة",
+        "min": "كلمة المرور يجب ان تكون مكونة من اكثر من 8 حروف و ارقام",
+        "server": {
+          "incorrectPassword": "كلمة المرور غير صالحة"
+        }
+      }
+    }
+  },
+  "or": "أو"
+}

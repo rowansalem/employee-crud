@@ -1,0 +1,39 @@
+{
+  "title": "Employees",
+  "table": {
+    "column1": "ID",
+    "column2": "First Name",
+    "column3": "Last Name",
+    "column4": "email",
+    "column5": "salary",
+    "column6": "position"
+  },
+  "actions": {
+    "add": "Add Employee",
+    "edit": "Edit",
+    "delete": "Delete",
+    "create": "Create Employee"
+  },
+  "confirm": {
+    "delete": {
+      "title": "Delete Employee",
+      "message": "Are you sure you want to delete this employee?"
+    }
+  },
+  "filter": {
+    "actions": {
+      "filter": "Filter",
+      "apply": "Apply"
+    },
+    "inputs": {
+      "role": {
+        "label": "Role",
+        "options": {
+          "1": "Junior",
+          "2": "Senior",
+          "3": "Manager"
+        }
+      }
+    }
+  }
+}

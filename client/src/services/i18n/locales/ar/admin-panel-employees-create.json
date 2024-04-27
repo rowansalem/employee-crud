@@ -1,0 +1,53 @@
+{
+  "title": "إنشاء موظف",
+  "actions": {
+    "submit": "حفظ",
+    "cancel": "إلغاء"
+  },
+  "inputs": {
+    "email": {
+      "label": "البريد الإلكتروني",
+      "validation": {
+        "invalid": "البريد الإلكتروني غير صالح",
+        "required": "البريد الإلكتروني مطلوب",
+        "server": {
+          "emailAlreadyExists": "البريد الإلكتروني موجود بالفعل"
+        }
+      }
+    },
+    "firstName": {
+      "label": "الاسم الأول",
+      "validation": {
+        "required": "الاسم الأول مطلوب"
+      }
+    },
+    "lastName": {
+      "label": "اسم العائلة",
+      "validation": {
+        "required": "اسم العائلة مطلوب"
+      }
+    },
+    "position": {
+      "label": "المنصب",
+      "validation": {
+        "required": "المنصب مطلوب"
+      },
+      "options": {
+        "1": "مبتدئ",
+        "2": "خبير",
+        "3": "مدير"
+      }
+    },
+    "salary": {
+      "label": "الراتب",
+      "validation": {
+        "required": "الراتب مطلوب"
+      }
+    }
+  },
+  "alerts": {
+    "employee": {
+      "success": "تم إنشاء الموظف بنجاح"
+    }
+  }
+}

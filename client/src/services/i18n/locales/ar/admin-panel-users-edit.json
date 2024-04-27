@@ -1,0 +1,64 @@
+{
+  "title1": "تعديل المستخدم",
+  "title2": "تغيير الرقم السري",
+  "actions": {
+    "submit": "حفظ",
+    "cancel": "الغاء"
+  },
+  "inputs": {
+    "email": {
+      "label": "البريد الالكتروني",
+      "validation": {
+        "invalid": "البريد الالكتروني غير صحيح",
+        "required": "البريد الالكتروني مطلوب",
+        "server": {
+          "emailAlreadyExists": "البريد الالكتروني موجود بالفعل"
+        }
+      }
+    },
+    "firstName": {
+      "label": "الاسم الاول",
+      "validation": {
+        "required": "الاسم الاول مطلوب"
+      }
+    },
+    "lastName": {
+      "label": "الاسم الاخير",
+      "validation": {
+        "required": "الاسم الاخير مطلوب"
+      }
+    },
+    "role": {
+      "label": "الدور",
+      "validation": {
+        "required": "الاسم الاخير مطلوب"
+      },
+      "options": {
+        "1": "مدير",
+        "2": "مستخدم"
+      }
+    },
+    "password": {
+      "label": "الرقم السري",
+      "validation": {
+        "required": "الرقم السري مطلوب",
+        "min": "الرقم السري يجب ان يكون اكثر من 8 حروف و ارقام"
+      }
+    },
+    "passwordConfirmation": {
+      "label": "الرقم السري تاكيد ",
+      "validation": {
+        "required": "تاكيد الرقم السري مطلوب",
+        "match": "تاكيد الرقم السري يجب ان يتطابق مع الرقم السري"
+      }
+    }
+  },
+  "alerts": {
+    "password": {
+      "success": "تم تغيير الرقم السري بنجاح"
+    },
+    "user": {
+      "success": "حساب المستخدم تم تعديله بنجاح"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "title": "Create employee",
+  "actions": {
+    "submit": "Save",
+    "cancel": "Cancel"
+  },
+  "inputs": {
+    "email": {
+      "label": "Email",
+      "validation": {
+        "invalid": "Email is invalid",
+        "required": "Email is required",
+        "server": {
+          "emailAlreadyExists": "Email already exists"
+        }
+      }
+    },
+    "firstName": {
+      "label": "First Name",
+      "validation": {
+        "required": "First Name is required"
+      }
+    },
+    "lastName": {
+      "label": "Last Name",
+      "validation": {
+        "required": "Last Name is required"
+      }
+    },
+    "position": {
+      "label": "Position",
+      "validation": {
+        "required": "Position is required"
+      },
+      "options": {
+        "1": "Junior",
+        "2": "Senior",
+        "3": "Manager"
+      }
+    },
+    "salary": {
+      "label": "Salary",
+      "validation": {
+        "required": "Salary is required"
+      }
+    }
+  },
+  "alerts": {
+    "employee": {
+      "success": "Employee has been created successfully"
+    }
+  }
+}

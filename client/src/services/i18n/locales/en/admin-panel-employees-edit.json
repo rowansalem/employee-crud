@@ -1,0 +1,47 @@
+{
+  "title1": "Edit employee",
+  "actions": {
+    "submit": "Save",
+    "cancel": "Cancel"
+  },
+  "inputs": {
+    "email": {
+      "label": "Email",
+      "validation": {
+        "invalid": "Email is invalid",
+        "required": "Email is required",
+        "server": {
+          "emailAlreadyExists": "Email already exists"
+        }
+      }
+    },
+    "name": {
+      "label": "Name",
+      "validation": {
+        "required": "Name is required"
+      }
+    },
+    "salary": {
+      "label": "Salary",
+      "validation": {
+        "required": "Salary is required"
+      }
+    },
+    "position": {
+      "label": "Position",
+      "validation": {
+        "required": "Position is required"
+      },
+      "options": {
+        "1": "Junior",
+        "2": "Senior",
+        "3": "Manager"
+      }
+    }
+  },
+  "alerts": {
+    "employee": {
+      "success": "Employee's profile has been updated successfully"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "app-name": "التحكم في الافراد",
+  "loading": "حاري التحميل ...",
+  "navigation": {
+    "home": "الصفحة الرئيسية",
+    "signIn": "تسجيل الدخول",
+    "signUp": "تسجيل جديد",
+    "profile": "الملف الشخصي",
+    "users": "المستخدمون",
+    "employees": "الموظفون",
+    "logout": "تسجيل الخروج"
+  },
+  "formInputs": {
+    "avatarInput": {
+      "dropzoneText": "اسقط الصورة هنا ...",
+      "dragAndDrop": "Or drag 'n' drop some files here",
+      "selectFile": "اختر صورة"
+    }
+  },
+  "leavePage": {
+    "title": "اترك هذه الصفحة?",
+    "message": "الاختيار اللذي اخترته لم يتم تفعيله",
+    "stay": "ابقي في الصفحة",
+    "leave": "مغادرة الصفحة"
+  },
+  "auth": {
+    "facebook": {
+      "action": "التسجيل بواسطة Facebook"
+    }
+  }
+}

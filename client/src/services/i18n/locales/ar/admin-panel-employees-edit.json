@@ -1,0 +1,47 @@
+{
+  "title1": "تعديل الموظف",
+  "actions": {
+    "submit": "حفظ",
+    "cancel": "إلغاء"
+  },
+  "inputs": {
+    "email": {
+      "label": "البريد الإلكتروني",
+      "validation": {
+        "invalid": "البريد الإلكتروني غير صالح",
+        "required": "البريد الإلكتروني مطلوب",
+        "server": {
+          "emailAlreadyExists": "البريد الإلكتروني موجود بالفعل"
+        }
+      }
+    },
+    "name": {
+      "label": "الاسم",
+      "validation": {
+        "required": "الاسم مطلوب"
+      }
+    },
+    "salary": {
+      "label": "الراتب",
+      "validation": {
+        "required": "الراتب مطلوب"
+      }
+    },
+    "position": {
+      "label": "المنصب",
+      "validation": {
+        "required": "المنصب مطلوب"
+      },
+      "options": {
+        "1": "مبتدئ",
+        "2": "خبير",
+        "3": "مدير"
+      }
+    }
+  },
+  "alerts": {
+    "employee": {
+      "success": "تم تحديث بيانات الموظف بنجاح"
+    }
+  }
+}

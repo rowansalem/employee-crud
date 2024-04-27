@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
 import { getServerTranslation } from "@/services/i18n";
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Typography from "@mui/material/Typography";
 import MuiLink from "@mui/material/Link";
+import Typography from "@mui/material/Typography";
+import type { Metadata } from "next";
 import { Trans } from "react-i18next/TransWithoutContext";
 
 type Props = {
@@ -37,7 +37,7 @@ export default async function Home({ params }: Props) {
                   key="1"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://github.com/brocoders/extensive-react-boilerplate/blob/main/docs/README.md"
+                  href="https://github.com/rowansalem/employee-crud/blob/main/README.md"
                 >
                   {}
                 </MuiLink>,

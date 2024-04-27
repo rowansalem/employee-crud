@@ -76,9 +76,5 @@ To run the backend tests:
 npm test
 ```
 
-For end-to-end testing with Docker:
-```
-npm run test:e2e:relational:docker  # For PostgreSQL
-npm run test:e2e:document:docker    # For MongoDB
-```
+
 
